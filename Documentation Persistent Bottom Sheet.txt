@@ -1,0 +1,5 @@
+To Use Persistent Bottom Sheet Behavior
+1. Make layout for Persistent Bottom Sheet and dont forget add behavior_hideable = "true" also behavior_peekhight = "...dp"
+2. Make sure layout you use is coordinator for contain bottom sheet behavior, then include bottom sheet behavior
+3. Next implement lateinit var BottomSheetBehavior that from "android amterial", make sure id you use .from were from persistent layout
+4. After you import bottomSheetBehavior next you implement addBottomSheetCallback that create object function onSlide() and onStateChanged
